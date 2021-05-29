@@ -1,0 +1,14 @@
+Proceso Números_Pares_dentro_de_un_número
+	Definir num Como Real
+	Definir i Como Real
+	i <- 0
+	Escribir "Digita un número entero positivo."
+	Leer num
+	Mientras num > i Hacer
+		i = i + 2
+		Escribir i
+	Fin Mientras
+	
+	Escribir "Los números pares dentro de ", num, " son los que aparecen en pantalla."
+	
+FinProceso
